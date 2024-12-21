@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+Desktop.ini
+
+#SQLite関連
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+/logs/*
