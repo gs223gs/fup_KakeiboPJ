@@ -26,7 +26,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-20232A?style=for-the-badge&logo=PHP&logoColor=61DAFB)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![MAMP](https://img.shields.io/badge/MAMP-3776AB?style=for-the-badge&logo=MAMP&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache-3776AB?style=for-the-badge&logo=Apache&logoColor=red)
 
 <!-- 後でかく -->
 ## インストール方法
