@@ -3,4 +3,4 @@
 機能
   DBのファイルパスを簡単に読み込める
   includes/DB/db.phpには既に組み込んでいる．
-  具体的な使い方については includes/DB/db.php を参照して下さい
+  具体的な使い方については includes/DB/db.php_について を参照して下さい
