@@ -1,14 +1,16 @@
 <?php
-$pagetitle = 'アカウント登録';
+$pagetitle = 'ログインページ';
 $css_files = ['../../assets/css/header.css', '../../assets/css/footer.css'];
-include '../../logic/css/read_css.php';
-include '../../includes/view/header.php';
+
+require_once __DIR__ . '/../../config/config.php'; // config.phpを読み込む
+//css読み込みファイルとheader読み込みファイルを定義
+require_once LOGIC_PATH . '/css/read_css.php';
+require_once INCLUDES_PATH . '/view/header.php';
 ?>
-
-
+<br>
+<!-- ユーザー登録画面への遷移 -->
 <a href="login.php">ログイン</a>
 
-
 <?php
-include '../../includes/view/footer.php';
+require_once INCLUDES_PATH .'/view/footer.php';
 ?>

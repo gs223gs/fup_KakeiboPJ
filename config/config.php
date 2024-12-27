@@ -4,6 +4,14 @@
 //
 
 //DB接続用のファイル
-define('DB_PATH', __DIR__ . './../DB/FUP_DB.sqlite');
-echo '<p>実行ファイル名:config/config.php DB接続用ファイルパス</p>';
+
+// リポジトリのルートディレクトリを基準にする
+define('BASE_PATH', dirname(__DIR__));
+
+//リポジトリから見た絶対パスを定義
+define('INCLUDES_PATH', BASE_PATH . '/includes');
+define('LOGIC_PATH', BASE_PATH . '/logic');
+define('DB_PATH', BASE_PATH . '/DB');
+define('LOGS_PATH', BASE_PATH . '/logs');
 ?>
+
