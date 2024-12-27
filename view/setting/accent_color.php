@@ -1,6 +1,6 @@
 <?php
-$pagetitle = '設定';
-$css_files = ['', ''];
+$pagetitle = 'カラー変更';
+// $css_files = ['', ''];
 include './includes/view/header.php';
 ?>
 
