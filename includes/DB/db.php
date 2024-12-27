@@ -14,7 +14,7 @@ echo "<p>実行ファイル名:includes/db.php</p>";
  *
  * @return PDO データベース接続オブジェクト
  */
-function getDB() {
+function connectDB() {
     try {
         $pdo = new PDO('sqlite:' . DB_PATH .'/FUP_DB.sqlite');
         // エラーモードを例外に設定
