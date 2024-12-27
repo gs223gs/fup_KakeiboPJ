@@ -1,6 +1,7 @@
 <?php
 $pagetitle = 'ようこそ';
-$css_files = ['./assets/css/header.css', './assets/css/footer.css'];
+$css_files = ['assets/css/header.css', 'assets/css/footer.css'];
+include './logic/css/read_css.php';
 include './includes/view/header.php';
 ?>
 

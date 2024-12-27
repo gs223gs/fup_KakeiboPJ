@@ -1,15 +1,16 @@
 <?php
-$pagetitle = 'ようこそ';
-$css_files = ['./assets/css/header.css', './assets/css/footer.css'];
-include './includes/view/header.php';
-?>
+$pagetitle = 'ログインページ';
+$css_files = ['../../assets/css/header.css', '../../assets/css/footer.css'];
 
-<!-- ログイン画面への遷移 -->
-<a href="./view/auth/login.php">ログイン</a>
+// logic/css/read_css.phpを読み込む
+include '../../logic/css/read_css.php';
+//header
+include '../../includes/view/header.php';
+?>
 <br>
 <!-- ユーザー登録画面への遷移 -->
-<a href="./view/auth/register.php">ユーザー登録</a>
+<a href="register.php">ユーザー登録</a>
 
 <?php
-include './includes/view/footer.php';
+include '../../includes/view/footer.php';
 ?>
