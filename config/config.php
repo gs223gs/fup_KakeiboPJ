@@ -17,8 +17,10 @@ define('INCLUDES_PATH', BASE_PATH . '/includes');
 define('LOGIC_PATH', BASE_PATH . '/logic');
 define('DB_PATH', BASE_PATH . '/DB');
 define('LOGS_PATH', BASE_PATH . '/logs');
-define('ASSETS_PATH', BASE_URL . '/assets');
-define('CSS_PATH', ASSETS_PATH . '/css');
+define('LOGIC_URL', BASE_URL . '/logic');
+define('ASSETS_URL', BASE_URL . '/assets');
+define('CSS_URL', ASSETS_URL . '/css');
+define('VIEW_URL', BASE_URL . '/view');
 // define('IMAGES_PATH', BASE_URL . '/images');
 ?>
 

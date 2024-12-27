@@ -6,7 +6,7 @@ $pagetitle = 'ようこそ';
 
 //css読み込み関数用の配列を定義
 //ファイルパスの指定をconfigから取得
-$css_files = [CSS_PATH . '/header.css', CSS_PATH. '/footer.css'];
+$css_files = [CSS_URL . '/header.css', CSS_URL. '/footer.css'];
 
 // headerをインクルード
 require_once INCLUDES_PATH . '/view/header.php';
