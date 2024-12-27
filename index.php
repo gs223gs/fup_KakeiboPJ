@@ -11,10 +11,6 @@ $css_files = [CSS_PATH . '/header.css', CSS_PATH. '/footer.css'];
 // headerをインクルード
 require_once INCLUDES_PATH . '/view/header.php';
 
-// DB接続用をインクルード
-require_once INCLUDES_PATH . '/DB/db.php' ;
-
-connectDB();// DB接続テスト
 ?>
 
 <!-- ログイン画面への遷移 -->

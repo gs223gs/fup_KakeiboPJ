@@ -7,8 +7,8 @@ require_once __DIR__ . '/../../config/config.php';
 // require_once DB_PATH ;
 echo "<p>実行ファイル名:includes/db.php</p>";
 
-//データベース接続テスト
-
+//! PDOを使用しています！
+// 頑張って調べて下さい
 /**
  * データベース接続を取得
  *
