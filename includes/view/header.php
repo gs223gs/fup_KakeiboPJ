@@ -36,5 +36,15 @@ function read_css_files($css_files) {
   ?>
 </head>
 <body>
+  <nav>
+    <ul>
+      <li><a href="">foo</a></li>
+      <li><a href="">bar</a></li>
+      <li><a href="">fizz</a></li>
+      <li><a href="">buzz</a></li>
+      <li><a href="">ログイン</a></li>
+      <li><a href="">登録</a></li>
+    </ul>
+  </nav>
   <p>ここを表示しているファイル名:includes/view/header.php</p>
-  <p><?php echo $pagetitle; ?></p>
+  <p><?php echo '設定されたタイトル: ' . $pagetitle; ?></p>

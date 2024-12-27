@@ -2,7 +2,6 @@
 // includes/view/footer.php
 ?>
 
-</b>
 </html>
 <footer>
     <p>フッター</p>
