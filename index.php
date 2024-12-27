@@ -1,5 +1,7 @@
 <?php
-include 'includes/view/header.php';
+$pagetitle = 'ようこそ';
+$css_files = ['./assets/css/header.css', './assets/css/footer.css'];
+include './includes/view/header.php';
 ?>
 
 <!-- ログイン画面への遷移 -->
@@ -9,5 +11,5 @@ include 'includes/view/header.php';
 <a href="./view/auth/register.php">ユーザー登録</a>
 
 <?php
-include 'includes/view/footer.php';
+include './includes/view/footer.php';
 ?>
