@@ -3,11 +3,11 @@
 // データベース接続用のファイル
 
 //PODクラスを使用してデータベースに接続する
-require_once __DIR__ . './../config/config.php';
+require_once __DIR__ . '/../../config/config.php';
+// require_once DB_PATH ;
 echo "<p>実行ファイル名:includes/db.php</p>";
 
 //データベース接続テスト
-getDB();//後で削除
 
 /**
  * データベース接続を取得
@@ -16,7 +16,7 @@ getDB();//後で削除
  */
 function getDB() {
     try {
-        $pdo = new PDO('sqlite:' . DB_PATH);
+        $pdo = new PDO('sqlite:' . DB_PATH .'/FUP_DB.sqlite');
         // エラーモードを例外に設定
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         // デフォルトのフェッチモードを連想配列に設定
